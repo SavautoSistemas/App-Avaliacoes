@@ -1,0 +1,14 @@
+inherited FormVistoriaFeita_Windows: TFormVistoriaFeita_Windows
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    inherited EditPlaca: TEdit
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+    end
+    inherited rctPesquisar: TRectangle
+      inherited imgBuscar: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+      end
+    end
+  end
+end

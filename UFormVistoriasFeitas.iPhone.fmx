@@ -1,0 +1,25 @@
+inherited FormVistoriaFeita_iPhone: TFormVistoriaFeita_iPhone
+  ClientHeight = 460
+  ClientWidth = 320
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Size.Width = 310.000000000000000000
+    inherited EditPlaca: TEdit
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Position.X = 16.356784820556640000
+      Size.Width = 142.010055541992200000
+      Size.Height = 30.000000000000000000
+    end
+    inherited rctPesquisar: TRectangle
+      Position.X = 186.547164916992200000
+      Size.Width = 109.282943725585900000
+      inherited imgBuscar: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+      end
+      inherited lblBuscar: TLabel
+        Size.Width = 49.282943725585940000
+      end
+    end
+  end
+end

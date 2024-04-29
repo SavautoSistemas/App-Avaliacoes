@@ -1,0 +1,45 @@
+object FormAtualizaApp: TFormAtualizaApp
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = None
+  Caption = 'Form1'
+  ClientHeight = 573
+  ClientWidth = 409
+  Fill.Kind = Solid
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Center
+    Fill.Color = xFFFF5252
+    Margins.Left = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Size.Width = 369.000000000000000000
+    Size.Height = 96.604492187500000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 25.000000000000000000
+    YRadius = 25.000000000000000000
+    OnClick = Rectangle1Click
+    object Label1: TLabel
+      Align = Client
+      StyledSettings = [Family]
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 349.000000000000000000
+      Size.Height = 96.604492187500000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Aplicativo precisa ser atualizado, clique aqui para atualizar!'
+      TabOrder = 0
+      OnClick = Label1Click
+    end
+  end
+end

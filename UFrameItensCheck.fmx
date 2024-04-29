@@ -1,0 +1,41 @@
+object FrameCheckListItens: TFrameCheckListItens
+  Size.Width = 374.000000000000000000
+  Size.Height = 172.000000000000000000
+  Size.PlatformDefault = False
+  object rectPrincipal: TRectangle
+    Align = Center
+    Fill.Color = xFF03FF03
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 25.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Margins.Bottom = 25.000000000000000000
+    Size.Width = 267.000000000000000000
+    Size.Height = 116.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    XRadius = 20.000000000000000000
+    YRadius = 20.000000000000000000
+    OnClick = rectPrincipalClick
+    object lblNome: TLabel
+      Align = Client
+      StyledSettings = [Family, Style, FontColor]
+      Size.Width = 267.000000000000000000
+      Size.Height = 116.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 36.000000000000000000
+      TextSettings.HorzAlign = Center
+      Text = 'Descri'#231#227'o do Reparo'
+      TabOrder = 0
+    end
+  end
+  object qBuscaValores: TUniQuery
+    Connection = DataModuleBancoFB.UniConnectionMySQL
+    Left = 312
+    Top = 16
+  end
+  object qInsereReparo: TUniQuery
+    Connection = DataModuleBancoFB.UniConnectionMySQL
+    Left = 320
+    Top = 80
+  end
+end

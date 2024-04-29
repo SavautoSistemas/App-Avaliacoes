@@ -1,0 +1,19 @@
+object FormApp: TFormApp
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 727
+  ClientWidth = 474
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Button1: TButton
+    Align = Center
+    Size.Width = 217.000000000000000000
+    Size.Height = 97.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Iniciar'
+  end
+end

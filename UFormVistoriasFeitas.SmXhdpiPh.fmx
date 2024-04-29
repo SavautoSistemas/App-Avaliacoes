@@ -1,0 +1,24 @@
+inherited FormVistoriaFeita_SmXhdpiPh: TFormVistoriaFeita_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Size.Width = 240.000000000000000000
+    inherited EditPlaca: TEdit
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Position.X = 12.663316726684570000
+      Size.Width = 105.427139282226600000
+    end
+    inherited rctPesquisar: TRectangle
+      Position.X = 146.681671142578100000
+      Size.Width = 80.090026855468750000
+      inherited imgBuscar: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+      end
+      inherited lblBuscar: TLabel
+        Size.Width = 20.090026855468750000
+      end
+    end
+  end
+end

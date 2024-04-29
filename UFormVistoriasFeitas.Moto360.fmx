@@ -1,0 +1,24 @@
+inherited FormVistoriaFeita_Moto360: TFormVistoriaFeita_Moto360
+  ClientHeight = 218
+  ClientWidth = 240
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Size.Width = 230.000000000000000000
+    inherited EditPlaca: TEdit
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      Position.X = 12.135678291320800000
+      Size.Width = 100.201004028320300000
+    end
+    inherited rctPesquisar: TRectangle
+      Position.X = 140.986602783203100000
+      Size.Width = 75.919601440429690000
+      inherited imgBuscar: TImage
+        MultiResBitmap.Height = 48
+        MultiResBitmap.Width = 48
+      end
+      inherited lblBuscar: TLabel
+        Size.Width = 15.919601440429690000
+      end
+    end
+  end
+end
